@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookWorm</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar" >
+<h1>BookWorm</h1>
+    </div>
+    
+    <div class="container">
+        <div class="book-details">
+        <h2>Rich dad Poor Dad</h2>
+        <h5>Robert</h5>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto deleniti quam distinctio et earum, eaque eos unde eligendi autem repudiandae enim porro tempora assumenda accusamus praesentium ipsa! Minus, quam similique!</p>
+   <button onclick="deletebook(event)">Delete</button>
+    </div>
+</div>
+<div class="overlay"></div>
+<div class="popup-details">
+    <h2>Add Book</h2>
+    <form>
+        <input type="text" placeholder="Book Title " id="book-title">
+        <input type="Author" placeholder="Author Name" id="author-name">
+        <textarea placeholder="Short description of book" id="short-des"></textarea> 
+
+    </form>
+    <button id="add-book" >Add Book</button>
+    <button id="cancel">Cancel</button>
+</div>
+<button class="add" id="add-pop">+</button>
+<script src="script.js"></script>
+</body>
+</html>
